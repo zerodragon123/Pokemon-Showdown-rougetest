@@ -124,7 +124,7 @@ export const commands: Chat.ChatCommands = {
 
 	name(target, room, user) {
 		let battleRoom: GameRoom | undefined;
-		const bot = Users.get('pschinabot1');
+		const bot = Users.get('pschinabot');
 		if (!bot) {
 			return ;
 		}
